@@ -4,7 +4,7 @@
   "description": "If you wanna start creating an awesome interactive co-doodling application, then this is it! This is also a part of Praveen's Live Stream on the same topic.",
   "main": "app.js",
   "scripts": {
-    "start": "node app",
+    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/praveenscience/Express-Doodle#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
   }
 }
