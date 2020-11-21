@@ -1,9 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.get("/", (req, res) => {
-  res.json("Hello, Everyone!");
-});
+app.use("/", express.static(__dirname + "/public"));
 
 app.listen(3000, () => {
   console.log("Server started in Port 3000.");
