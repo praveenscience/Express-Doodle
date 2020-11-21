@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/praveenscience/Express-Doodle/issues"
   },
-  "homepage": "https://github.com/praveenscience/Express-Doodle#readme"
+  "homepage": "https://github.com/praveenscience/Express-Doodle#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
