@@ -1,0 +1,26 @@
+{
+  "name": "express-doodle",
+  "version": "1.0.0",
+  "description": "If you wanna start creating an awesome interactive co-doodling application, then this is it! This is also a part of Praveen's Live Stream on the same topic.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenscience/Express-Doodle.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "SocketIO",
+    "Doodle"
+  ],
+  "author": "Praveen Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveenscience/Express-Doodle/issues"
+  },
+  "homepage": "https://github.com/praveenscience/Express-Doodle#readme"
+}
